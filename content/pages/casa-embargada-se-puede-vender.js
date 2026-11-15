@@ -1,0 +1,162 @@
+export default {
+  slug: 'casa-embargada-se-puede-vender',
+  title: 'Casa embargada: ¿se puede vender? Qué hacer en Paraguay',
+  h1: 'Casa embargada: ¿se puede vender?',
+  description: 'Casa embargada en Paraguay: si se puede vender, qué es el embargo preventivo y el ejecutivo, cómo se levanta para escriturar y cuánto te queda después.',
+  navLabel: 'Casa embargada',
+  blurb: 'Si se puede vender una casa embargada, cómo se levanta el embargo con la misma venta y qué cambia cuando embarga el banco.',
+  group: 'Deudas y embargos',
+  order: 20,
+  keyword: {
+    phrase: 'casa embargada',
+    evidence: 'autocomplete gl=py 2026-11-15: "casa embargada", "casa embargada por el banco", "casa embargada se puede vender", "se puede vender una casa embargada", "se puede vender una casa embargada por el banco", "se puede vender una casa con una parte embargada", "levantamiento de embargo paraguay", "levantamiento de embargo ejecutivo paraguay", "embargo preventivo y ejecutivo paraguay", "embargo ejecutivo caducidad paraguay", "como saber si una propiedad esta embargada"',
+  },
+  published: '2026-11-16',
+  updated: '2026-11-16',
+  review: 'pending',
+  reviewNote: 'A lawyer should confirm against the current Código Procesal Civil: art. 456 (embargo on real estate by annotation in the Registro), art. 710 (the debtor keeps normal use), art. 715 (sale of an embargoed asset has no effect against the embargo creditor), art. 698 (substitution by another guarantee), art. 701 (registrable precautionary measures lapse 5 years after annotation unless re-registered), arts. 718 to 720 (inhibición general) and art. 507 (mortgage execution goes first against the mortgaged asset). The practical route "pay in the court file with the buyer money and the judge orders the lifting" is described as usual practice, not as a statutory procedure; no fee or timing is stated.',
+  answer: 'En Paraguay una casa embargada se puede vender, pero el embargo tiene que levantarse para que el comprador reciba la casa libre. El embargo es una orden de un juez, anotada en el Registro Público, que asegura el cobro de una deuda: no te saca la casa ni te impide usarla, pero la venta no vale contra el acreedor mientras siga anotado. Lo habitual es pagar la deuda con parte del precio, en el mismo expediente, y que el juez ordene levantar el embargo para firmar la escritura. Cuanto antes se haga, menos intereses y costas se suman.',
+  summary: [
+    'El embargo se anota en el Registro Público y aparece en el informe que pide el escribano.',
+    'No te quita la casa: podés seguir viviendo en ella, publicarla y negociar.',
+    'Para escriturar hay que levantarlo: pagando antes, pagando con el precio o reemplazándolo por otra garantía.',
+    'Las medidas anotadas caducan a los cinco años si el acreedor no las reinscribe.',
+    'La inhibición general es distinta: mientras dure, no podés vender nada que esté a tu nombre.',
+  ],
+  flow: ['Informe del Registro', 'Monto de la deuda', 'Comprador y precio', 'Pago y levantamiento', 'Escritura'],
+  cta: {
+    title: 'Embargada no quiere decir invendible',
+    text: 'Mientras averiguás cuánto hay que pagar para levantar el embargo, la casa puede estar publicada. Es gratis y sin comisión sobre la venta.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'se-puede',
+      h2: 'Casa embargada: ¿se puede vender en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'Sí, siempre que el embargo se levante antes o en el momento de la escritura. El Código Procesal Civil dice que la venta de un bien embargado no tiene efecto contra el acreedor que embargó, así que ningún comprador bien asesorado paga sin que la anotación desaparezca.' },
+        {
+          t: 'table',
+          caption: 'Medidas que pueden figurar en el Registro y qué significan para vender',
+          head: ['Medida', 'Sobre qué recae', '¿Puedo vender?'],
+          rows: [
+            ['Embargo preventivo', 'La casa, antes o durante el juicio', 'Sí, levantándolo o reemplazándolo por otra garantía'],
+            ['Embargo ejecutivo', 'La casa, dentro de un juicio de cobro', 'Sí, pagando capital, intereses y costas'],
+            ['Inhibición general de enajenar y gravar', 'Vos, y todo lo que tengas a tu nombre', 'No, hasta que se levante'],
+            ['Embargo por una hipoteca en ejecución', 'La casa hipotecada', 'Sí, cancelando la deuda con el banco'],
+          ],
+          note: 'Descripción general según el Código Procesal Civil (Ley 1337/88). El expediente de cada caso manda.',
+        },
+        { t: 'p', html: 'Si todavía no hay nada anotado y lo que tenés son cuentas atrasadas, tu caso es más simple: está en <a href="/vender-casa-con-deudas/">¿se puede vender una casa con deuda?</a>' },
+      ],
+    },
+    {
+      id: 'preventivo-y-ejecutivo',
+      h2: 'Embargo preventivo y ejecutivo: qué significa cada uno',
+      blocks: [
+        { t: 'p', html: 'Los dos aseguran que el acreedor pueda cobrar, pero aparecen en momentos distintos del reclamo.' },
+        { t: 'ul', items: [
+          '<strong>Embargo preventivo:</strong> lo pide el acreedor para asegurarse antes de tener sentencia. Si se trabó antes de iniciar el juicio y la deuda ya era exigible, el acreedor tiene diez días para presentar la demanda o la medida caduca.',
+          '<strong>Embargo ejecutivo:</strong> se traba dentro del juicio de cobro, junto con la intimación de pago. Es el paso previo a la sentencia de remate.',
+          '<strong>En los dos casos</strong> el embargo de un inmueble se hace efectivo anotándolo en el Registro, y mientras no haya otra orden del juez podés seguir usando la casa con normalidad.',
+          '<strong>Caducidad:</strong> las medidas anotadas en el Registro se extinguen a los cinco años de su anotación, salvo que el acreedor pida reinscribirlas antes.',
+        ] },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un abogado o escribano antes de decidir.' },
+        { t: 'p', html: 'Para saber qué tiene anotado tu casa, el escribano pide al Registro el informe de condición de dominio del inmueble y el de anotaciones personales a tu nombre. Ahí figuran el juzgado, el expediente y el monto.' },
+      ],
+    },
+    {
+      id: 'levantamiento',
+      h2: 'Levantamiento de embargo en Paraguay: tres caminos para poder escriturar',
+      blocks: [
+        { t: 'p', html: 'El embargo se levanta por orden del mismo juez que lo dictó, y hay tres maneras de llegar a esa orden.' },
+        { t: 'steps', items: [
+          { title: 'Pagar antes de vender', html: 'Si tenés la plata, pagás en el expediente lo que diga la liquidación, el juez ordena el levantamiento y vendés la casa libre. Es el camino más limpio y el menos frecuente.' },
+          { title: 'Pagar con el precio de la venta', html: 'Es lo habitual. Tu abogado pide en el juicio el monto actualizado; comprador, escribano y acreedor acuerdan que esa parte del precio se pague directo al expediente, y con el oficio de levantamiento se firma la escritura.' },
+          { title: 'Reemplazar el embargo por otra garantía', html: 'El Código permite pedir que una medida se sustituya por una fianza, una prenda, una hipoteca u otra seguridad equivalente. Sirve si tenés otro bien y querés liberar la casa para venderla.' },
+        ] },
+        { t: 'p', html: 'Hay un cuarto caso: el embargo mal trabado, por ejemplo sobre una casa que ya no era del deudor. Ahí se pide el levantamiento sin pagar, pero hay que probarlo ante el juez.' },
+      ],
+    },
+    {
+      id: 'por-el-banco',
+      h2: 'Casa embargada por el banco: qué cambia',
+      blocks: [
+        { t: 'p', html: 'Cambia quién es el acreedor y qué tan cerca está la subasta. Cuando el que embarga es un banco, casi siempre hay un título firmado por vos, un pagaré o una hipoteca, y el juicio avanza rápido.' },
+        { t: 'ul', items: [
+          'Si la casa está hipotecada, el banco va primero contra esa casa, y la orden de intimación de pago ya dispone anotar el embargo sobre ella.',
+          'Si la deuda es un préstamo sin hipoteca o una tarjeta, el banco puede embargar cualquier bien tuyo, incluida la casa.',
+          'En los dos casos podés proponerle al banco pagar con la venta. A un acreedor le suele convenir cobrar antes y sin subasta, pero no está obligado a esperar.',
+        ] },
+        { t: 'p', html: 'Si ya hay sentencia o fecha de subasta, leé hoy mismo <a href="/remate-judicial-de-inmuebles-paraguay/">remate judicial de inmuebles en Paraguay</a>: los plazos son cortos.' },
+      ],
+    },
+    {
+      id: 'cuanto-queda',
+      h2: '¿Cuánto me queda si vendo una casa embargada?',
+      blocks: [
+        { t: 'p', html: 'El precio menos lo que haya que pagar en el juicio, que es más que la deuda original: se suman intereses y costas, es decir, los gastos del juicio y los honorarios.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa de Gs. 450.000.000 con un embargo',
+          html: 'Supuestos de ejemplo: montos redondos de una liquidación judicial. No incluye impuestos de la venta ni gastos de escritura.',
+          rows: [
+            ['Precio de venta', '', 'Gs. 450.000.000'],
+            ['Capital reclamado', '', 'Gs. 60.000.000'],
+            ['Intereses', '', 'Gs. 12.000.000'],
+            ['Costas del juicio', '', 'Gs. 9.000.000'],
+            ['Total para levantar el embargo', '60.000.000 + 12.000.000 + 9.000.000', 'Gs. 81.000.000'],
+            ['Te queda', '450.000.000 − 81.000.000', 'Gs. 369.000.000'],
+          ],
+        },
+        { t: 'p', html: 'Los intereses y las costas crecen con cada mes y con cada paso del juicio. Vender en el primer tramo del reclamo deja más plata que vender la semana de la subasta.' },
+      ],
+    },
+    {
+      id: 'comprador',
+      h2: 'Qué decirle al comprador y cuándo',
+      blocks: [
+        { t: 'p', html: 'La verdad, antes de la seña. El embargo va a aparecer igual en los informes que pide el escribano, y un comprador que se entera tarde se va.' },
+        { t: 'ul', items: [
+          'En el aviso no hace falta ponerlo. En la primera conversación seria, sí.',
+          'Mostrá el monto actualizado del juicio y explicá que se paga con el precio, en el expediente, antes de la escritura.',
+          'Proponé que la seña quede en manos del escribano hasta tener el oficio de levantamiento. Le da seguridad al comprador y a vos te permite avanzar.',
+          'Poné un precio realista: compará con casas parecidas en <a href="https://casa-libre.com.py/comprar">Casa-Libre</a>. Un precio inflado te hace perder semanas que el juicio no espera.',
+        ] },
+        {
+          t: 'casalibre',
+          title: 'Publicá mientras tu abogado pide la liquidación',
+          html: 'En Casa-Libre publicar es gratis, no hay comisión sobre la venta y los interesados te escriben directo por WhatsApp. Está en la web y en apps para iPhone y Android, y el aviso se puede guardar como borrador.',
+          button: 'Publicar gratis en Casa-Libre',
+          href: 'https://casa-libre.com.py/publicar',
+        },
+        { t: 'p', html: 'Casa-Libre no compra casas ni da asesoramiento legal: el levantamiento lo tramita tu abogado. Cómo se arma el aviso está en la página de <a href="https://casa-libre.com.py/como-funciona">cómo funciona Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Se puede vender una casa embargada por el banco?', a: 'Sí, cancelando la deuda con el banco antes o en el momento de la escritura, por lo general con parte del precio. Pedí por medio de tu abogado el monto actualizado en el expediente y coordiná el pago con el escribano.' },
+    { q: '¿Cómo saber si una propiedad está embargada?', a: 'Con el informe de condición de dominio que el escribano pide al Registro Público: ahí figuran embargos, hipotecas y otras anotaciones sobre el inmueble. Para las inhibiciones se pide el informe de anotaciones personales del dueño.' },
+    { q: '¿Cuándo caduca un embargo ejecutivo en Paraguay?', a: 'El Código Procesal Civil dice que las medidas cautelares registrables se extinguen a los cinco años de su anotación, salvo que se reinscriban antes por orden del juzgado. Que la anotación caduque no borra la deuda ni el juicio: consultá con un abogado.' },
+    { q: '¿Se puede vender una casa con una parte embargada?', a: 'Si la casa es de varios dueños y el embargo recae sobre la parte de uno, los demás no pueden entregar la casa libre sin resolver esa parte. Lo práctico es pagar esa deuda con la porción del precio que le toca a ese dueño. Mirá también <a href="/como-vender-una-propiedad-en-condominio/">cómo vender una propiedad en condominio</a>.' },
+    { q: '¿Pueden rematar mi casa si está embargada?', a: 'El embargo es el paso previo. Si el juicio sigue y no se paga, el juez puede ordenar la subasta. Por eso conviene vender o acordar antes de la sentencia de remate.' },
+  ],
+  sources: [
+    { label: 'Código Procesal Civil (Ley 1337/88), arts. 450 a 464: juicio ejecutivo y embargo', detail: 'Intimación de pago, embargo de inmuebles por anotación en el Registro.' },
+    { label: 'Código Procesal Civil (Ley 1337/88), arts. 693 a 720: medidas cautelares', detail: 'Embargo preventivo, efectos, sustitución, caducidad a los cinco años e inhibición general.' },
+    { label: 'Dirección General de los Registros Públicos', detail: 'Informes de condición de dominio y de anotaciones personales.' },
+  ],
+  internalSources: [
+    { label: 'Código Procesal Civil arts. 450-464, 503-507, 693-720', url: 'https://www.bacn.gov.py/leyes-paraguayas/3038/ley-n-1337-codigo-procesal-civil-br', date: '2026-11-15', note: 'Art. 456 annotation; 698 substitution by guarantee; 700 ten days to sue after a pre-trial measure; 701 five-year lapse; 710 normal use; 715 no effect against the embargo creditor; 718-720 inhibición; 505 and 507 mortgage execution; 84 lifting without tercería.' },
+    { label: 'Names of the registry reports', url: '', date: '2026-11-15', note: 'Informe de condición de dominio / anotaciones personales: usual names used by escribanos; not checked against a DGRP form.' },
+    { label: 'Example amounts', url: '', date: '2026-11-15', note: 'Hypothetical.' },
+  ],
+  closing: {
+    title: 'Cada mes de juicio cuesta: movete ahora',
+    text: 'Pedí el monto para levantar el embargo y publicá la casa. En Casa-Libre es gratis y te escriben por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['remate-judicial-de-inmuebles-paraguay', 'vender-casa-con-deudas', 'bien-de-familia-paraguay'],
+};

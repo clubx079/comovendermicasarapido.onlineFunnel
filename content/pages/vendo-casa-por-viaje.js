@@ -1,0 +1,165 @@
+export default {
+  slug: 'vendo-casa-por-viaje',
+  title: 'Vendo casa por viaje: cómo vender antes de irte del país',
+  h1: 'Vendo casa por viaje: cómo vender antes de irte del país',
+  description: 'Vendo casa por viaje en Paraguay: calendario hacia atrás desde la fecha de salida, qué podés dejar firmado con un poder y qué hacer si no se vende a tiempo.',
+  navLabel: 'Vender por viaje',
+  blurb: 'Vender la casa con fecha de viaje: calendario, poder para que firmen por vos y plan si no se vende a tiempo.',
+  group: 'Vender con apuro',
+  order: 30,
+  keyword: {
+    phrase: 'vendo casa por viaje',
+    evidence: 'autocomplete gl=py 2026-11-15: "vendo casa por viaje", "vendo casa urgente por viaje", "ocasión vendo casa por viaje urgente", "vendo por viaje urgente", "vendo terreno urgente por viaje", "vendo departamento urgente por viaje", "poder para vender casa", "poder especial para vender una casa"',
+  },
+  published: '2026-11-16',
+  updated: '2026-11-16',
+  review: 'pending',
+  reviewNote: 'An escribano should confirm: that selling real estate through a representative needs a poder especial by escritura pública (Código Civil arts. 700 and 884 inc. e), that the poder must be registered in the Registro de Poderes to take effect (Código de Organización Judicial arts. 349 and 352), how a poder signed abroad is accepted today (Paraguayan consulate, or foreign escribano plus apostille or legalisation), and that a ganancial property needs both spouses or a poder especial from the other (Ley 1/92 art. 42).',
+  answer: 'Si vendés tu casa porque te vas de Paraguay, armá el plan desde la fecha de salida hacia atrás: papeles y precio dos meses antes, aviso publicado enseguida y, si a un mes del viaje no hay comprador firme, un poder especial para vender hecho ante escribano a nombre de alguien de total confianza. Con ese poder la escritura se puede firmar aunque ya estés afuera. Lo que no conviene es malvender la última semana: una casa con papeles al día, alguien que la muestre y un apoderado se puede vender igual después del viaje.',
+  summary: [
+    'La fecha de viaje es fija: lo que se mueve es el orden de los pasos y el precio.',
+    'Vender por medio de otra persona exige un poder especial para vender, hecho por escritura pública.',
+    'Si la casa es del matrimonio, tienen que firmar los dos o dejar poder los dos.',
+    'Hacer el poder antes de viajar es más simple y más barato que hacerlo desde el exterior.',
+    'El aviso puede seguir publicado en Casa-Libre y las consultas te llegan por WhatsApp estés donde estés.',
+  ],
+  flow: ['Fecha de viaje', 'Papeles y precio', 'Aviso publicado', 'Poder firmado', 'Escritura'],
+  cta: {
+    title: 'Publicá hoy: cada semana cuenta',
+    text: 'Con fecha de salida, el aviso tiene que estar arriba cuanto antes. Publicar es gratis y te escriben directo por WhatsApp.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'calendario',
+      h2: '¿Cómo vender una casa antes de irte del país?',
+      blocks: [
+        { t: 'p', html: 'Contando para atrás desde el día del vuelo. Una venta tiene pasos que no dependen de vos, como los informes que pide el escribano, así que el margen se gana al principio, no al final.' },
+        {
+          t: 'table',
+          caption: 'Cuenta regresiva para vender con fecha de viaje',
+          head: ['Cuándo', 'Qué hacer', 'Para qué'],
+          rows: [
+            ['8 semanas antes o más', 'Juntar título, cédulas, impuesto inmobiliario al día y definir el precio', 'Que nada frene la escritura'],
+            ['Esa misma semana', 'Publicar el aviso con fotos y ubicación', 'Ganar semanas de exposición'],
+            ['4 semanas antes', 'Si no hay comprador firme, hacer el poder para vender', 'Que alguien pueda firmar por vos'],
+            ['2 semanas antes', 'Dejar llaves, copias de papeles y servicios pagos a tu apoderado', 'Que pueda mostrar y entregar'],
+            ['Después de viajar', 'Seguir respondiendo consultas y pasar los interesados al apoderado', 'Cerrar la venta a distancia'],
+          ],
+          note: 'Plazos orientativos. El escribano te dirá cuánto demoran los informes en tu caso.',
+        },
+        { t: 'p', html: 'Si lo que vendés es un terreno o un departamento, los papeles cambian un poco: están en <a href="/vendo-terreno-urgente/">vendo terreno urgente</a> y en <a href="/vendo-departamento-urgente/">vendo departamento urgente</a>.' },
+      ],
+    },
+    {
+      id: 'poder',
+      h2: '¿Qué puedo dejar firmado si viajo antes de vender?',
+      blocks: [
+        { t: 'p', html: 'Un poder especial para vender. Es un documento hecho ante escribano en el que autorizás a otra persona, tu apoderado, a firmar la escritura de venta de esa casa en tu nombre.' },
+        { t: 'ul', items: [
+          '<strong>Tiene que ser especial.</strong> El Código Civil pide poder especial para transmitir derechos sobre inmuebles: un poder general de administración no alcanza para vender.',
+          '<strong>Va por escritura pública</strong> y se inscribe en el Registro de Poderes. El escribano se ocupa de las dos cosas.',
+          '<strong>Conviene que diga</strong> qué casa es, el precio mínimo, si el apoderado puede recibir la seña y el pago, y dónde se deposita la plata.',
+          '<strong>Si estás casado</strong> y la casa es ganancial, la venta la firman los dos. El que viaja puede dejarle poder especial al otro.',
+        ] },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un abogado o escribano antes de decidir.' },
+        { t: 'p', html: 'Un poder para vender es una herramienta fuerte: quien lo tiene puede firmar por vos. Dáselo solo a alguien de confianza total y limitalo todo lo que puedas. Qué cláusulas pedir y cómo se revoca está en <a href="/poder-para-vender-un-inmueble/">poder para vender un inmueble</a>.' },
+      ],
+    },
+    {
+      id: 'desde-el-exterior',
+      h2: '¿Y si ya estoy afuera? El poder desde el exterior',
+      blocks: [
+        { t: 'p', html: 'Se puede, pero lleva más tiempo y más pasos. Un poder firmado fuera de Paraguay tiene que llegar en una forma que el escribano y el Registro de aquí acepten.' },
+        { t: 'ul', items: [
+          'Los caminos habituales son firmarlo en un consulado paraguayo, o ante un escribano del país donde vivís y después apostillarlo o legalizarlo.',
+          'Preguntale primero al escribano paraguayo que va a hacer la venta qué texto y qué forma necesita. Así no pagás dos veces.',
+          'Sumá el envío del original y la inscripción en el Registro de Poderes al calendario.',
+        ] },
+        { t: 'p', html: 'Por eso, si ya sabés que te vas, el mejor momento para hacer el poder es antes de viajar, aunque después no haga falta usarlo.' },
+      ],
+    },
+    {
+      id: 'poner-por-viaje',
+      h2: '¿Conviene poner "vendo casa urgente por viaje" en el aviso?',
+      blocks: [
+        { t: 'p', html: 'Solo si el precio ya incluye la rebaja que estás dispuesto a dar. "Urgente por viaje", igual que "ocasión", le dice al comprador que hay una fecha y que puede ofertar bajo.' },
+        { t: 'ul', items: [
+          '<strong>A favor:</strong> atrae a quien busca oportunidad y paga al contado, que es el comprador que cierra rápido.',
+          '<strong>En contra:</strong> las primeras ofertas suelen venir muy por debajo, y quien iba a pagar tu precio también va a pedir rebaja.',
+          '<strong>Punto medio:</strong> publicar sin la palabra "urgente", con "entrega inmediata" y "papeles al día", y contar lo del viaje recién al interesado serio.',
+        ] },
+      ],
+    },
+    {
+      id: 'si-no-se-vende',
+      h2: '¿Qué pasa si la casa no se vende antes del viaje?',
+      blocks: [
+        { t: 'p', html: 'No pasa nada grave si dejaste el poder y a alguien que la muestre: la casa se sigue vendiendo sin vos. El error caro es aceptar cualquier oferta la última semana.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa de Gs. 600.000.000 y viaje en un mes',
+          html: 'Supuestos de ejemplo: una oferta al contado 10% por debajo del precio, y costos de mantener la casa vacía de Gs. 1.500.000 por mes entre impuesto, servicios mínimos y alguien que la cuide.',
+          rows: [
+            ['Aceptar la oferta antes de viajar', '600.000.000 × 10%', 'Resignás Gs. 60.000.000'],
+            ['Dejar poder y esperar seis meses', '1.500.000 × 6', 'Gastás Gs. 9.000.000'],
+            ['Diferencia', '60.000.000 − 9.000.000', 'Gs. 51.000.000'],
+          ],
+        },
+        { t: 'p', html: 'El ejemplo no dice que haya que esperar siempre: si esa plata la necesitás para instalarte afuera, la rebaja puede valer la pena. Dice que la decisión se toma con la cuenta hecha.' },
+        { t: 'ul', items: [
+          'Dejá por escrito a tu apoderado el precio mínimo y hasta cuándo sostenerlo.',
+          'Acordá quién paga el impuesto inmobiliario, ANDE y ESSAP mientras tanto. Una casa con cuentas atrasadas se vende peor.',
+          'Si pensás usar esa plata para comprar en otro lado, mirá también <a href="/necesito-vender-mi-casa-para-comprar-otra/">necesito vender mi casa para comprar otra</a>.',
+        ] },
+      ],
+    },
+    {
+      id: 'publicar-a-distancia',
+      h2: 'Cómo seguir la venta sin estar en Paraguay',
+      blocks: [
+        { t: 'p', html: 'Con el aviso a tu nombre, las consultas en tu teléfono y el apoderado para lo presencial. Vos filtrás y negociás; él muestra y firma.' },
+        { t: 'ul', items: [
+          'Mantené el mismo número de WhatsApp o avisá el nuevo en el aviso apenas lo cambies.',
+          'Pasale al apoderado solo los interesados que ya vieron fotos, precio y ubicación.',
+          'El pago del precio conviene hacerlo por transferencia a la cuenta que diga el poder, el mismo día de la escritura.',
+        ] },
+        {
+          t: 'casalibre',
+          title: 'El aviso viaja con vos',
+          html: 'En Casa-Libre publicar es gratis y sin comisión sobre la venta. Los interesados te contactan directo por WhatsApp y podés editar el aviso desde la web o desde las apps para iPhone y Android, estés donde estés.',
+          button: 'Publicar gratis en Casa-Libre',
+          href: 'https://casa-libre.com.py/publicar',
+        },
+        { t: 'p', html: 'Casa-Libre no compra casas ni asegura una fecha de venta. Lo que hace es mostrar la tuya a quienes buscan: mirá <a href="https://casa-libre.com.py/como-funciona">cómo funciona Casa-Libre</a>. Antes de viajar, bajá la app desde <a href="https://casa-libre.com.py/descargar">Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: 'Vendo casa urgente por viaje: ¿puedo firmar la escritura desde el exterior?', a: 'No hace falta que firmes vos. Tu apoderado firma en Paraguay con un poder especial para vender, hecho por escritura pública e inscripto en el Registro de Poderes. Si no lo dejaste antes de viajar, se puede otorgar desde afuera con más pasos.' },
+    { q: '¿Qué es un poder para vender una casa?', a: 'Es la autorización, hecha ante escribano, para que otra persona firme la venta de tu casa en tu nombre. Para vender inmuebles la ley pide un poder especial: tiene que nombrar el acto y conviene que identifique el inmueble.' },
+    { q: '¿Mi esposo o esposa puede vender la casa si yo ya viajé?', a: 'Si la casa es ganancial, la venta corresponde a los dos. Uno puede firmar por ambos solo si tiene poder especial del otro. Dejalo hecho antes de viajar.' },
+    { q: '¿Cuánto cuesta hacer un poder para vender?', a: 'No hay una cifra única: depende de los honorarios del escribano y de los gastos de inscripción. Pedí el presupuesto por escrito antes de firmar.' },
+    { q: '¿Conviene alquilar la casa si no se vende antes del viaje?', a: 'Puede cubrir los gastos, pero una casa con inquilino se muestra y se entrega con más dificultad. Si tu objetivo sigue siendo vender, pesá eso antes de firmar un contrato largo.' },
+  ],
+  sources: [
+    { label: 'Código Civil paraguayo (Ley 1183/85), arts. 700 y 884', detail: 'Actos que van por escritura pública y poder especial para transmitir inmuebles.' },
+    { label: 'Código de Organización Judicial (Ley 879/81), arts. 349 a 354: Registro de Poderes', detail: 'Inscripción de los poderes otorgados en el país o en el extranjero.' },
+    { label: 'Ley 1/92, de reforma parcial del Código Civil, art. 42', detail: 'Venta de bienes gananciales por ambos cónyuges o con poder especial del otro.' },
+  ],
+  internalSources: [
+    { label: 'Código Civil, Libro III, arts. 700 inc. f and 884 inc. e', url: 'https://www.bacn.gov.py/leyes-paraguayas/522/', date: '2026-11-15', note: 'Poderes for acts that need escritura pública must be by escritura pública; poder especial needed to transmit real rights on inmuebles.' },
+    { label: 'Código de Organización Judicial arts. 349, 352, 354', url: 'https://www.bacn.gov.py/leyes-paraguayas/2321/ley-n-879-codigo-de-organizacion-judicial-br', date: '2026-11-15', note: 'Registro de Poderes: mandates granted in the country or abroad "debidamente legalizados"; registration is indispensable for effect.' },
+    { label: 'Ley 1/92 art. 42', url: 'https://www.bacn.gov.py/leyes-paraguayas/695/ley-n-1-reforma-parcial-del-codigo-civil-br', date: '2026-11-15', note: 'Acts of disposal over gananciales belong to both spouses jointly; either may act with poder especial of the other.' },
+    { label: 'Poder granted abroad', url: '', date: '2026-11-15', note: 'NOT confirmed in a primary source: consular route and apostille route are stated as "the usual paths"; the page tells the reader to ask the Paraguayan escribano first.' },
+    { label: 'Example amounts', url: '', date: '2026-11-15', note: 'Hypothetical.' },
+  ],
+  closing: {
+    title: 'Antes de armar las valijas, publicá',
+    text: 'Dejá el aviso arriba y el poder firmado. Publicar en Casa-Libre es gratis y las consultas te llegan por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['poder-para-vender-un-inmueble', 'vendo-terreno-urgente', 'necesito-vender-mi-casa-para-comprar-otra'],
+};

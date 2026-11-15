@@ -1,0 +1,176 @@
+export default {
+  slug: 'desalojo-paraguay',
+  title: 'Desalojo en Paraguay: cómo vender una casa ocupada',
+  h1: 'Desalojo en Paraguay: cómo vender una casa ocupada',
+  description: 'Desalojo en Paraguay para quien quiere vender: cuándo corresponde el juicio de desalojo, plazos de la ley, qué hacer con intrusos y si conviene vender ocupada.',
+  navLabel: 'Desalojo y venta',
+  blurb: 'Vender una casa ocupada: cuándo corresponde el juicio de desalojo, sus plazos legales y las tres salidas posibles con su cuenta.',
+  group: 'Posesión y otros casos',
+  order: 30,
+  keyword: {
+    phrase: 'desalojo paraguay',
+    evidence: 'autocomplete gl=py 2026-11-15: "desalojo paraguay", "juicio desalojo paraguay", "orden de desalojo paraguay", "cuanto cuesta una orden de desalojo en paraguay", "desalojo codigo civil paraguayo", "desalojo codigo procesal civil", "desalojo sin orden judicial paraguay", "ley de desalojo en paraguay", "desalojo de ocupantes precarios", "vender casa ocupada", "puedo vender una casa ocupada", "se puede vender una casa ocupada"',
+  },
+  published: '2026-11-16',
+  updated: '2026-11-16',
+  review: 'pending',
+  reviewNote: 'A lawyer should confirm against the current Código Procesal Civil arts. 621 to 634: desalojo proceeds against tenant, subtenant or precarious occupant; 6 days to answer; evidence period up to 15 days; judgment within 10 days; eviction term up to 10 days for expired contract, non-payment or precarious occupant, and the Código Civil art. 839 terms (40 days for a house) for leases without term; appeal with suspensive effect; art. 633 (the result cannot be opposed to possession or ownership rights claimed in another trial); art. 634 (condena de futuro). Also Código Civil art. 837 inc. h (two unpaid monthly rents), art. 810 (lease survives a sale if registered) and Código Penal art. 142 as amended by Ley 6830/2021 (invasión de inmueble ajeno). Which court is competent, court fees and real duration could NOT be confirmed and are not stated.',
+  answer: 'En Paraguay se puede vender una casa ocupada, pero casi ningún comprador paga valor de mercado por una casa que no le pueden entregar. Si quien ocupa es un inquilino con contrato vencido o que debe dos o más meses, o un ocupante precario que tiene que devolverla, corresponde el juicio de desalojo del Código Procesal Civil, que tiene plazos cortos en la ley. Solo un juez puede ordenar el desalojo: sacar a alguien por la fuerza por cuenta propia es ilegal. Las salidas reales son tres: acordar la salida, desalojar y después vender, o vender ocupada con una rebaja fuerte.',
+  summary: [
+    'El juicio de desalojo procede contra inquilinos, subinquilinos y ocupantes precarios obligados a devolver el inmueble.',
+    'La ley da seis días para contestar la demanda y hasta diez días para desocupar después de la sentencia en los casos más comunes.',
+    'Solo un juez ordena el desalojo; hacerlo por la fuerza y sin orden te puede traer un problema penal.',
+    'Si el ocupante dice que es dueño o poseedor, el desalojo no alcanza: es otro juicio.',
+    'Una casa libre de ocupantes se vende a precio de mercado; una ocupada, con una rebaja importante.',
+  ],
+  flow: ['Quién ocupa', 'Acuerdo o demanda', 'Sentencia', 'Casa desocupada', 'Aviso y venta'],
+  cta: {
+    title: 'Mirá cuánto vale tu casa libre de ocupantes',
+    text: 'Ese número te dice cuánto conviene invertir en recuperarla. Compará con casas parecidas en venta.',
+    button: 'Ver casas en venta en Casa-Libre',
+    href: 'https://casa-libre.com.py/comprar',
+  },
+  sections: [
+    {
+      id: 'se-puede-vender',
+      h2: '¿Se puede vender una casa ocupada en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'Sí: el título es tuyo y lo podés transferir. El problema es práctico. El comprador quiere recibir las llaves, y qué camino hay para lograrlo depende de quién está adentro y con qué derecho.' },
+        {
+          t: 'table',
+          caption: 'Quién ocupa la casa y cuál es el camino',
+          head: ['Quién ocupa', 'Camino', 'Qué tener en cuenta'],
+          rows: [
+            ['Inquilino con contrato vigente', 'No hay desalojo: se vende con el inquilino o se espera al vencimiento', 'Si el contrato está inscripto en el Registro, el comprador debe respetarlo'],
+            ['Inquilino con contrato vencido o que debe dos meses o más', 'Juicio de desalojo', 'Guardá contrato, recibos e intimaciones'],
+            ['Pariente, cuidador o alguien a quien se la prestaste', 'Juicio de desalojo como ocupante precario', 'Tenés que probar que debe devolverla'],
+            ['Intruso que entró sin permiso', 'Denuncia y acciones para recuperar la posesión', 'Actuá rápido: el tiempo juega en tu contra'],
+            ['Alguien que dice ser dueño o poseedor hace años', 'Otro tipo de juicio, no el desalojo', 'Puede haber riesgo de usucapión'],
+          ],
+          note: 'Descripción general según el Código Procesal Civil y el Código Civil. Cada caso lo define un abogado con los papeles a la vista.',
+        },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un abogado o escribano antes de decidir.' },
+      ],
+    },
+    {
+      id: 'juicio',
+      h2: 'Juicio de desalojo en Paraguay: cómo es el trámite',
+      blocks: [
+        { t: 'p', html: 'Es un juicio especial y breve en los papeles. Sirve para que te devuelvan el inmueble, no para discutir quién es el dueño ni para cobrar alquileres atrasados, que se reclaman aparte.' },
+        { t: 'steps', items: [
+          { title: 'Demanda por escrito', html: 'Con un abogado, acompañando toda la prueba documental: título, contrato, recibos, intimaciones. Hay que decir si en la casa viven subinquilinos u otros ocupantes.' },
+          { title: 'Seis días para contestar', html: 'Si el demandado no contesta, se tienen por ciertos los hechos de la demanda y el juez dicta sentencia sin más trámite.' },
+          { title: 'Prueba, si hay hechos discutidos', html: 'Por un plazo máximo de quince días. Si el motivo es falta de pago o contrato vencido, la ley admite muy pocas pruebas: confesión, recibos de pago o el documento que muestre que el plazo no venció.' },
+          { title: 'Sentencia', html: 'El juez tiene diez días para dictarla. Es la única resolución apelable, y la apelación suspende el desalojo hasta que resuelva el tribunal.' },
+          { title: 'Lanzamiento', html: 'Vencido el plazo que fije la sentencia, el juez ordena desocupar con auxilio de la fuerza pública.' },
+        ] },
+        { t: 'p', html: 'Un dato útil si el contrato todavía no venció: la demanda se puede presentar antes del vencimiento, para que la sentencia se cumpla apenas llegue la fecha. Sirve cuando ya sabés que querés vender y temés que el inquilino no se vaya.' },
+      ],
+    },
+    {
+      id: 'orden-de-desalojo',
+      h2: 'Orden de desalojo en Paraguay: plazos y cuánto cuesta',
+      blocks: [
+        { t: 'p', html: 'La orden la da el juez en la sentencia, con un plazo para desocupar. Lo que la gente llama orden de desalojo es el mandamiento que se ejecuta cuando ese plazo vence.' },
+        { t: 'ul', items: [
+          '<strong>Contrato vencido, falta de pago u ocupante precario:</strong> el juez puede dar un plazo de hasta diez días.',
+          '<strong>Alquiler sin plazo pactado y sin deuda:</strong> rigen los plazos del Código Civil, que para una casa son cuarenta días desde la intimación.',
+          '<strong>Falta de pago:</strong> el Código Civil habla de dos mensualidades vencidas para pedir que termine el contrato.',
+          '<strong>Subinquilinos y otros ocupantes</strong> que fueron notificados tienen el mismo plazo que el inquilino principal.',
+        ] },
+        { t: 'p', html: 'Sobre el costo: no hay una cifra oficial única. Se suman honorarios del abogado, tasas judiciales y gastos de notificación y de la diligencia final. Tampoco hay un plazo real garantizado: los de la ley son cortos, pero la duración depende del juzgado y de si hay apelación. Pedí un presupuesto y una estimación por escrito.' },
+      ],
+    },
+    {
+      id: 'sin-orden-judicial',
+      h2: 'Desalojo sin orden judicial: por qué no',
+      blocks: [
+        { t: 'p', html: 'Porque es ilegal y te puede salir más caro que el juicio. Cambiar la cerradura, cortar la luz o sacar las cosas a la calle sin una orden puede terminar en una denuncia en tu contra y en la obligación de devolverle la casa al ocupante.' },
+        { t: 'ul', items: [
+          '<strong>Con un inquilino o un ocupante precario:</strong> intimación por escrito y, si no sale, juicio de desalojo.',
+          '<strong>Con un intruso:</strong> la invasión de inmueble ajeno es un hecho punible del Código Penal. Hacé la denuncia enseguida y consultá por las acciones para recuperar la posesión, que tienen su propio trámite.',
+          '<strong>En todos los casos:</strong> dejá constancia escrita de las fechas. Sirve para el juicio y corta discusiones futuras sobre desde cuándo está cada uno.',
+        ] },
+      ],
+    },
+    {
+      id: 'tres-salidas',
+      h2: 'Vender ocupada, acordar la salida o desalojar primero',
+      blocks: [
+        { t: 'p', html: 'Para la mayoría de los dueños, acordar la salida es lo más rápido y desalojar primero es lo que mejor precio deja. Vender ocupada es la última opción.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa que vale Gs. 400.000.000 libre de ocupantes',
+          html: 'Supuestos de ejemplo: un comprador que la toma ocupada pide 25% de rebaja; el ocupante acepta irse en dos meses por Gs. 15.000.000. Los costos de un juicio no se incluyen porque no hay una cifra de referencia.',
+          rows: [
+            ['Vender ocupada', '400.000.000 × 75%', 'Gs. 300.000.000'],
+            ['Acordar la salida y vender libre', '400.000.000 − 15.000.000', 'Gs. 385.000.000'],
+            ['Diferencia', '385.000.000 − 300.000.000', 'Gs. 85.000.000'],
+          ],
+        },
+        { t: 'ul', items: [
+          '<strong>Acuerdo de salida:</strong> por escrito, con fecha de entrega, estado de la casa y pago contra entrega de llaves. Consultá con un abogado cómo darle fuerza si no cumple.',
+          '<strong>Desalojar y después vender:</strong> más lento, pero vendés a precio de mercado y a cualquier comprador, incluido el que paga con crédito.',
+          '<strong>Vender ocupada:</strong> solo a quien entiende lo que compra. Decilo en el aviso y en el contrato, con nombre del ocupante y situación.',
+        ] },
+        { t: 'p', html: 'Si quien ocupa es otro dueño de la misma casa, como un copropietario o un coheredero, por lo general no es un caso de desalojo: mirá <a href="/como-vender-una-propiedad-en-condominio/">cómo vender una propiedad en condominio</a>.' },
+      ],
+    },
+    {
+      id: 'dice-ser-dueno',
+      h2: 'Cuando el ocupante dice que es dueño',
+      blocks: [
+        { t: 'p', html: 'Ahí el juicio de desalojo no alcanza. El Código dice que su resultado no vale contra los derechos de posesión o de dominio que se discutan en otro juicio, así que el camino es una acción distinta y más larga.' },
+        { t: 'p', html: 'Y hay un riesgo que crece con los años: quien posee un inmueble como dueño, sin interrupción y sin oposición durante veinte años, puede pedir que un juez lo declare propietario. Si tenés una casa o un terreno ocupado hace mucho, un reclamo judicial interrumpe ese plazo; una carta sola puede no alcanzar. Los requisitos están en <a href="/usucapion-paraguay-requisitos/">usucapión en Paraguay</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Cuándo publicar una casa que está ocupada',
+      blocks: [
+        { t: 'p', html: 'Cuando puedas decirle al comprador una fecha de entrega creíble. Antes de eso, juntás consultas que no podés cerrar.' },
+        { t: 'ul', items: [
+          'Con acuerdo de salida firmado: publicá ya, con la fecha de entrega en el aviso.',
+          'Con juicio en trámite: podés publicar aclarando la situación, pero no recibas una seña con fecha de entrega fija.',
+          'Sin fotos del interior no hay aviso que funcione: coordiná con el ocupante una visita para sacarlas.',
+        ] },
+        {
+          t: 'casalibre',
+          title: 'Casa desocupada, aviso arriba',
+          html: 'En Casa-Libre publicar es gratis y sin comisión sobre la venta. Los interesados te escriben directo por WhatsApp. El aviso se puede guardar como borrador y publicar el día que recuperes la casa, desde la web o desde las apps para iPhone y Android.',
+          button: 'Publicar gratis en Casa-Libre',
+          href: 'https://casa-libre.com.py/publicar',
+        },
+        { t: 'p', html: 'Casa-Libre no interviene en el desalojo ni da asesoramiento legal. Para lo que viene después, está la guía de <a href="https://casa-libre.com.py/guias/como-vender-mi-casa">Casa-Libre</a> para vender una casa. Cómo se arma el aviso está en la página de <a href="https://casa-libre.com.py/como-funciona">cómo funciona Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Puedo vender una casa ocupada?', a: 'Sí, pero el comprador va a pedir una rebaja importante o que la entregues desocupada. Lo habitual es resolver primero la ocupación, por acuerdo o por juicio, y vender después.' },
+    { q: '¿Cuánto cuesta una orden de desalojo en Paraguay?', a: 'No hay un monto oficial único. Se pagan honorarios de abogado, tasas judiciales y los gastos de las notificaciones y del lanzamiento. Pedí el presupuesto por escrito antes de empezar.' },
+    { q: '¿Qué dice el Código Civil paraguayo sobre el desalojo?', a: 'El Código Civil regula cuándo termina el alquiler: por vencimiento del plazo, por falta de pago de dos mensualidades si el dueño lo demanda, entre otros casos. El trámite del juicio está en el Código Procesal Civil, artículos 621 a 634.' },
+    { q: '¿Se puede hacer un desalojo sin orden judicial en Paraguay?', a: 'No. Solo un juez puede ordenar que alguien deje un inmueble, y el lanzamiento lo hace un oficial de justicia con la fuerza pública si hace falta. Hacerlo por cuenta propia puede traerte una denuncia.' },
+    { q: '¿Cómo es el desalojo de ocupantes precarios?', a: 'El juicio de desalojo también procede contra cualquier ocupante precario que esté obligado a devolver el inmueble, como alguien a quien se lo prestaste. Tenés que probar esa obligación, y el juez puede fijar un plazo de hasta diez días para desocupar.' },
+    { q: '¿Cuánto tarda un juicio de desalojo en Paraguay?', a: 'No hay un plazo oficial de duración total. La ley fija plazos de días para cada paso, pero el tiempo real depende del juzgado, de las notificaciones y de si la sentencia se apela.' },
+  ],
+  sources: [
+    { label: 'Código Procesal Civil (Ley 1337/88), arts. 621 a 634: del desalojo', detail: 'Contra quién procede, plazos, prueba, sentencia, apelación y lanzamiento.' },
+    { label: 'Código Civil paraguayo (Ley 1183/85), arts. 810 y 837 a 839', detail: 'Venta del inmueble alquilado y conclusión de la locación.' },
+    { label: 'Código Civil paraguayo (Ley 1183/85), art. 1989', detail: 'Usucapión por veinte años de posesión.' },
+    { label: 'Código Penal (Ley 1160/97), art. 142, modificado por la Ley 6830/2021', detail: 'Invasión de inmueble ajeno.' },
+  ],
+  internalSources: [
+    { label: 'Código Procesal Civil arts. 621-634', url: 'https://www.bacn.gov.py/leyes-paraguayas/3038/ley-n-1337-codigo-procesal-civil-br', date: '2026-11-15', note: 'Arts. 621-634 read in full: 6 days; 15 days of evidence; judgment in 10 days; lanzamiento by public force; up to 10 days (art. 628); appeal with suspensive effect (629); art. 633; art. 634 condena de futuro.' },
+    { label: 'Código Civil, Libro III, arts. 810, 837-839, 1281', url: 'https://www.bacn.gov.py/leyes-paraguayas/522/', date: '2026-11-15', note: 'Art. 837 h: two unpaid monthly rents. Art. 839 b: 40 days for a house in a lease without term. Art. 810: lease subsists if registered.' },
+    { label: 'Ley 6830/2021 (Código Penal art. 142)', url: 'https://www.bacn.gov.py/leyes-paraguayas/9670/ley-n-6830-modifica-el-articulo-142-de-la-ley-n-11601997-codigo-penal-y-su-modificatoria-ley-n-34402008', date: '2026-11-15', note: 'Seen only through a search summary; no penalty figure is stated on the page.' },
+    { label: 'Competent court, fees, duration, legal risk of self-help eviction', url: '', date: '2026-11-15', note: 'NOT confirmed in a primary source. The page gives no figures and words the self-help risk generally.' },
+    { label: 'Example amounts', url: '', date: '2026-11-15', note: 'Hypothetical, including the 25% discount.' },
+  ],
+  closing: {
+    title: 'Primero recuperar la casa, después el mejor precio',
+    text: 'Cuando tengas fecha de entrega, publicá. En Casa-Libre es gratis y te escriben por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['usucapion-paraguay-requisitos', 'como-vender-una-propiedad-en-condominio', 'casa-embargada-se-puede-vender'],
+};

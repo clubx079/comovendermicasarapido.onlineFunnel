@@ -1,0 +1,182 @@
+export default {
+  slug: 'usucapion-corta-y-extraordinaria',
+  title: 'Usucapión corta y extraordinaria en Paraguay: diferencias',
+  h1: 'Usucapión corta y usucapión extraordinaria en Paraguay: diferencias',
+  description: 'Usucapión corta y usucapión extraordinaria en Paraguay: 10 o 20 años, cuándo hace falta justo título y buena fe, y qué podés vender en cada caso.',
+  navLabel: 'Tipos de usucapión',
+  blurb: 'Usucapión de 10 o de 20 años: qué pide cada una, cómo saber cuál es tu caso y qué te deja vender.',
+  group: 'Posesión y otros casos',
+  order: 20,
+  keyword: {
+    phrase: 'usucapión extraordinaria paraguay',
+    evidence: 'autocomplete gl=py 2026-11-15: "usucapión extraordinaria paraguay", "usucapión corta paraguay", "usucapion corta", "usucapión corta y larga", "usucapion corta requisitos", "usucapión extraordinaria requisitos", "usucapión extraordinaria ejemplo", "usucapion 10 años paraguay", "usucapion 10 o 20 años", "usucapion con justo titulo"; locals also say "usucapión larga" for the 20-year kind, used in an H2 and the FAQ',
+  },
+  published: '2026-11-16',
+  updated: '2026-11-16',
+  review: 'pending',
+  reviewNote: 'A lawyer should confirm: Código Civil art. 1989 (20 years, no title or good faith needed) and art. 1990 (10 years with justo título and good faith; also the possessor of an inheritance with declaratoria); arts. 1994 to 1998 (definition of good faith and justo título; título putativo is not enough; a title relatively null does not serve); art. 1991 (a successor in good faith may join the predecessor possession). Two statements are interpretation and need a professional check: that a private contract (boleto) is generally not a justo título because art. 700 requires escritura pública, and that a holder with an inscribed escritura can normally sell by escritura while the 10 years run. "Corta" and "extraordinaria" are the names people search; the Code itself does not use them.',
+  answer: 'En Paraguay hay dos plazos de usucapión. La extraordinaria, o larga, pide veinte años de posesión ininterrumpida y sin oposición, y no exige título ni buena fe: sirve para quien ocupó, compró de palabra o con un papel privado. La corta pide diez años, pero solo vale para quien adquirió el inmueble de buena fe y con justo título, es decir, con una escritura hecha con todas las formas de ley que resultó tener un defecto de origen. En los dos casos, para vender como dueño hace falta que el título quede firme a tu nombre en el Registro; antes, solo se ceden derechos de posesión.',
+  summary: [
+    'Usucapión extraordinaria o larga: veinte años, sin título y sin necesidad de buena fe.',
+    'Usucapión corta: diez años, con justo título y buena fe, las dos cosas juntas.',
+    'Justo título es un acto hecho para transmitir el dominio y con las formas que exige la ley.',
+    'Un contrato privado o un recibo, por lo general, no alcanzan como justo título.',
+    'Quien compra una posesión de buena fe puede sumar el tiempo del poseedor anterior.',
+  ],
+  cta: {
+    title: 'Con título firme, la venta es como cualquier otra',
+    text: 'Cuando la propiedad esté a tu nombre, publicala gratis. Los interesados te escriben directo por WhatsApp.',
+    button: 'Ver cómo vender en Casa-Libre',
+    href: 'https://casa-libre.com.py/vender',
+  },
+  sections: [
+    {
+      id: 'diferencias',
+      h2: 'Usucapión corta y extraordinaria: en qué se diferencian',
+      blocks: [
+        { t: 'p', html: 'En el plazo y en lo que hay que tener además de la posesión. La larga pide más tiempo y nada más; la corta pide la mitad del tiempo, pero exige un título y buena fe.' },
+        {
+          t: 'table',
+          caption: 'Usucapión corta y usucapión extraordinaria, lado a lado',
+          head: ['', 'Usucapión corta', 'Usucapión extraordinaria o larga'],
+          rows: [
+            ['Plazo de posesión', '10 años continuos', '20 años ininterrumpidos y sin oposición'],
+            ['Título', 'Justo título, obligatorio', 'No hace falta'],
+            ['Buena fe', 'Obligatoria', 'No hace falta: la ley la presume'],
+            ['Caso típico', 'Compraste por escritura a quien no era el verdadero dueño', 'Ocupaste, heredaste una posesión o compraste con un papel privado'],
+            ['Para qué sirve', 'Deja firme un título que tenía un defecto', 'Te da un título que nunca tuviste'],
+            ['Artículo del Código Civil', '1990', '1989'],
+          ],
+          note: 'Resumen general. El Código no usa los nombres "corta" y "extraordinaria": son los que usa la gente y los abogados.',
+        },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un abogado o escribano antes de decidir.' },
+        { t: 'p', html: 'Los requisitos comunes a las dos, las pruebas y el juicio están en <a href="/usucapion-paraguay-requisitos/">usucapión en Paraguay: requisitos</a>. Esta guía trata solo lo que las separa.' },
+      ],
+    },
+    {
+      id: 'corta',
+      h2: 'Usucapión corta en Paraguay: requisitos',
+      blocks: [
+        { t: 'p', html: 'Tres cosas a la vez: diez años de posesión continua, justo título y buena fe. Si falta una de las tres, el caso pasa a ser de veinte años.' },
+        { t: 'ul', items: [
+          '<strong>Justo título:</strong> el Código lo define como el que tiene por fin transmitir el dominio y reviste las solemnidades exigidas por la ley. Para un inmueble, eso quiere decir una escritura pública de compraventa, donación o permuta.',
+          '<strong>Tiene que ser verdadero</strong> y corresponder al inmueble que poseés. Creer que tenías un título válido, sin tenerlo, no alcanza: es lo que la ley llama título putativo.',
+          '<strong>Buena fe:</strong> la creencia, sin duda alguna, de ser el titular legítimo. Si sabías que quien te vendía no era el dueño, no hay buena fe.',
+          '<strong>Un caso especial:</strong> el mismo plazo de diez años vale para quien posee una herencia con declaratoria a su favor.',
+        ] },
+        { t: 'p', html: 'La usucapión corta no es para quien no tiene papeles. Es para quien tiene una escritura en regla por fuera y un problema por dentro: el vendedor no era el dueño real, o su propio título tenía un defecto.' },
+      ],
+    },
+    {
+      id: 'extraordinaria',
+      h2: 'Usucapión extraordinaria en Paraguay: 20 años sin título',
+      blocks: [
+        { t: 'p', html: 'Veinte años poseyendo como dueño, sin interrupciones y sin oposición. No importa cómo empezó la posesión ni si sabías que el terreno era de otro.' },
+        { t: 'ul', items: [
+          'Es el camino de la mayoría: quien ocupó un terreno vacío, quien compró con un contrato privado y nunca escrituró, quien recibió la casa de un pariente sin sucesión.',
+          'La ley no pide título ni buena fe, pero sí todo lo demás: posesión real, a nombre propio, durante los veinte años.',
+          'No distingue si el dueño que figura en el título vivía en el país o afuera.',
+          'Termina con una sentencia que sirve de título y se inscribe en el Registro de Inmuebles.',
+        ] },
+        { t: 'p', html: 'Si compraste con un contrato privado, tu caso tiene además otra salida posible: exigir al vendedor que firme la escritura. Son caminos distintos y conviene que un abogado te diga cuál es más corto.' },
+      ],
+    },
+    {
+      id: 'cual-es-tu-caso',
+      h2: '¿Usucapión de 10 o de 20 años? Cómo saber cuál es tu caso',
+      blocks: [
+        { t: 'p', html: 'Mirando el papel con el que entraste al inmueble. Si es una escritura pública a tu nombre, puede ser la corta. Si es cualquier otra cosa, o no hay papel, es la larga.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: dos vecinos, dos plazos',
+          html: 'Casos inventados, con fechas de ejemplo.',
+          rows: [
+            ['Vecina A', 'Compró por escritura pública en 2014 a un señor que figuraba como dueño; después apareció un heredero que reclama', 'Con justo título y buena fe: 2014 + 10 = 2024'],
+            ['Vecino B', 'Compró en 2014 con un contrato privado y recibos; nunca se hizo la escritura', 'Sin justo título: 2014 + 20 = 2034'],
+            ['Vecino B, otra opción', 'El vendedor que firmó el contrato vive y es el titular', 'Puede pedirle la escritura sin esperar a 2034'],
+          ],
+        },
+        { t: 'p', html: 'Tres preguntas ordenan el caso: ¿tengo una escritura pública inscripta?, ¿sabía de algún problema cuando compré?, ¿desde qué fecha puedo probar la posesión? Llevá las respuestas, con los papeles, a un abogado.' },
+      ],
+    },
+    {
+      id: 'que-vender',
+      h2: 'Qué se puede vender en cada caso',
+      blocks: [
+        { t: 'p', html: 'Depende de qué figura hoy en el Registro a tu nombre. Eso es lo que mira el escribano del comprador.' },
+        {
+          t: 'table',
+          caption: 'Qué se puede transferir según la situación',
+          head: ['Tu situación', 'Qué podés transferir', 'Qué va a mirar el comprador'],
+          rows: [
+            ['Posesión sin título, plazo sin cumplir', 'Solo tus derechos de posesión', 'Desde cuándo estás y con qué pruebas'],
+            ['Posesión de 20 años, sin juicio', 'Tus derechos de posesión, con el plazo ya cumplido', 'Que todavía falta el juicio y quién lo va a pagar'],
+            ['Sentencia de usucapión inscripta', 'La propiedad, por escritura pública', 'Lo mismo que en cualquier venta'],
+            ['Escritura inscripta con un defecto de origen', 'En principio, la propiedad', 'El estudio de títulos: si pasaron los 10 años, el defecto pierde fuerza'],
+          ],
+          note: 'Descripción general. Cada título lo estudia un escribano.',
+        },
+        { t: 'p', html: 'Ceder derechos de posesión es una operación distinta de vender una casa, con menos compradores y otro precio. Está explicada en <a href="/vender-derechos-y-acciones/">vender derechos y acciones</a>.' },
+      ],
+    },
+    {
+      id: 'sumar-posesion',
+      h2: 'Sumar la posesión del anterior: cuándo se puede',
+      blocks: [
+        { t: 'p', html: 'Cuando recibiste la posesión de otra persona por un acto entre los dos, como una compra o una cesión, y actuaste de buena fe. El Código permite a ese sucesor unir su posesión a la de quien se la pasó.' },
+        { t: 'ul', items: [
+          'Si el anterior poseyó doce años y vos ocho, pueden sumar los veinte de la usucapión larga.',
+          'Vale aunque el anterior haya sido de mala fe: sus vicios no se trasladan a quien adquiere de buena fe.',
+          'Hay que probar las dos posesiones y el traspaso. Un contrato de cesión con fecha cierta ayuda mucho.',
+          'Esto es lo que hace que una posesión antigua tenga valor para un comprador: compra también los años.',
+        ] },
+        { t: 'p', html: 'Si la posesión te llegó por herencia, las reglas son las de la sucesión: mirá <a href="/como-abrir-una-sucesion-en-paraguay/">cómo abrir una sucesión en Paraguay</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Cuándo publicar y qué decir en el aviso',
+      blocks: [
+        { t: 'p', html: 'Cuando sepas exactamente qué estás ofreciendo: propiedad con título o derechos de posesión. Y decirlo con esas palabras.' },
+        { t: 'ul', items: [
+          'Con título inscripto: publicá como cualquier venta, con "título al día".',
+          'Con posesión: escribí "se ceden derechos de posesión", los años que llevás y las pruebas que tenés. Así evitás reclamos y visitas inútiles.',
+          'Para poner precio, mirá a cuánto se publican los terrenos con título de tu zona en <a href="https://casa-libre.com.py/propiedades?op=venta&amp;type=terreno">Casa-Libre</a> y tené presente que una posesión vale menos.',
+        ] },
+        {
+          t: 'casalibre',
+          title: 'Publicá con las cosas claras',
+          html: 'En Casa-Libre publicar es gratis y no hay comisión sobre la venta. Los interesados te contactan directo por WhatsApp, desde la web o desde las apps para iPhone y Android. Casa-Libre no da asesoramiento legal: lo que ofrecés lo describís vos, con claridad.',
+          button: 'Publicar gratis en Casa-Libre',
+          href: 'https://casa-libre.com.py/publicar',
+        },
+        { t: 'p', html: 'Más material para propietarios en las guías de <a href="https://casa-libre.com.py/guias">Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Qué es la usucapión corta en Paraguay?', a: 'Es la de diez años. Vale para quien adquirió el inmueble de buena fe y con justo título, por ejemplo una escritura pública otorgada por alguien que después resultó no ser el dueño.' },
+    { q: '¿Qué es la usucapión extraordinaria o larga?', a: 'Es la de veinte años de posesión ininterrumpida y sin oposición. No exige título ni buena fe, y termina con una sentencia que sirve de título de propiedad.' },
+    { q: '¿Usucapión de 10 o 20 años: cuál me corresponde?', a: 'Diez años solo si tenés justo título y buena fe a la vez. En todos los demás casos, veinte. Un contrato privado, por lo general, no cuenta como justo título.' },
+    { q: '¿Un contrato privado de compraventa sirve como justo título?', a: 'Por lo general no, porque la ley pide escritura pública para transmitir inmuebles y el justo título tiene que cumplir esas formas. Sí sirve, y mucho, como prueba de la fecha y del origen de tu posesión. Consultá tu caso con un abogado.' },
+    { q: '¿Puedo sumar los años del anterior poseedor?', a: 'Sí, si recibiste la posesión de buena fe por un acto entre los dos, como una compra o una cesión. Tenés que probar el tiempo de cada uno y el traspaso.' },
+  ],
+  sources: [
+    { label: 'Código Civil paraguayo (Ley 1183/85), arts. 1989 y 1990', detail: 'Usucapión de veinte años sin título y de diez años con justo título y buena fe.' },
+    { label: 'Código Civil paraguayo (Ley 1183/85), arts. 1991 a 1998', detail: 'Unión de posesiones, buena fe, justo título y títulos que no sirven.' },
+    { label: 'Código Civil paraguayo (Ley 1183/85), art. 700', detail: 'Actos sobre inmuebles que deben hacerse por escritura pública.' },
+  ],
+  internalSources: [
+    { label: 'Código Civil, Libro IV, arts. 1989-1998', url: 'https://www.bacn.gov.py/leyes-paraguayas/524/', date: '2026-11-15', note: 'Art. 1990 second paragraph: heir in possession with declaratoria. Art. 1991: successor in good faith joins possession even if the predecessor was in bad faith. Art. 1995 justo título; 1996 título putativo insufficient; 1994 good faith.' },
+    { label: 'Código Civil, Libro III, arts. 700 and 701', url: 'https://www.bacn.gov.py/leyes-paraguayas/522/', date: '2026-11-15', note: 'Escritura pública required; private contract obliges the parties to sign it (basis for "pedirle la escritura al vendedor").' },
+    { label: 'Interpretation points', url: '', date: '2026-11-15', note: 'NOT confirmed in case law: (1) private contract is generally not justo título; (2) what a holder of an inscribed but defective escritura can sell. Both worded as "por lo general" / "en principio" and flagged in reviewNote.' },
+    { label: 'Example', url: '', date: '2026-11-15', note: 'Invented cases and dates.' },
+  ],
+  closing: {
+    title: 'Primero saber qué tenés, después vender',
+    text: 'Con título o con posesión, el aviso tiene que decir la verdad. Publicar en Casa-Libre es gratis.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['usucapion-paraguay-requisitos', 'vender-derechos-y-acciones', 'desalojo-paraguay'],
+};

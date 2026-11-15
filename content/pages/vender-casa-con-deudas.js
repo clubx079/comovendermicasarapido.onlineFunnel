@@ -1,0 +1,172 @@
+export default {
+  slug: 'vender-casa-con-deudas',
+  title: '¿Se puede vender una casa con deuda? Impuestos y expensas',
+  h1: '¿Se puede vender una casa con deuda? Impuestos, servicios y expensas atrasadas',
+  description: '¿Se puede vender una casa con deuda en Paraguay? Qué pasa con el impuesto inmobiliario atrasado, ANDE, ESSAP, las expensas y las deudas personales del dueño.',
+  navLabel: 'Casa con deudas',
+  blurb: 'Vender una casa con impuesto inmobiliario, luz, agua o expensas atrasadas: cuáles frenan la escritura y cómo pagarlas con la venta.',
+  group: 'Deudas y embargos',
+  order: 10,
+  keyword: {
+    phrase: 'se puede vender casa con deuda',
+    evidence: 'autocomplete gl=py 2026-11-15: "se puede vender casa con deuda", "puedo vender mi casa con deuda", "se puede vender una casa con deuda de impuestos", "se puede vender una casa con deuda de luz y agua", "se puede vender una casa con deuda en el banco", "se puede vender una propiedad con deuda de expensas", "impuesto inmobiliario atrasado", "prescripción impuesto inmobiliario paraguay", "libre deuda de expensas"',
+  },
+  published: '2026-11-16',
+  updated: '2026-11-16',
+  review: 'pending',
+  reviewNote: 'An escribano should confirm: Ley 125/91 art. 64 (no escritura without the certificate of no debt of impuesto inmobiliario; the whole tax must be paid before a transfer and the agreement between the parties is irrelevant for the payment), art. 61 (rate of 1% on the valuación fiscal) and art. 164 (5-year prescription of the action to collect) as they apply to the municipal tax today; Ley 677/60 art. 18 on expensas following the unit (confirm it is still applied next to the Código Civil); the inhibición general of the Código Procesal Civil arts. 718 to 720; and how ANDE and ESSAP treat an unpaid supply when the owner changes, which could NOT be confirmed in a primary source.',
+  answer: 'En Paraguay se puede vender una casa con deudas, pero no todas pesan igual. El impuesto inmobiliario atrasado frena la escritura: el escribano no puede firmarla sin el certificado de no adeudar ese impuesto, así que hay que pagarlo antes, muchas veces con la misma seña del comprador. Las expensas de un departamento siguen a la unidad, por eso el comprador exige que queden canceladas. Las cuentas de ANDE y ESSAP no figuran en el Registro, pero se negocian en el precio. Y tus deudas personales no afectan la venta mientras no haya un embargo o una inhibición anotados.',
+  summary: [
+    'Impuesto inmobiliario atrasado: hay que pagarlo antes de escriturar, porque el escribano necesita el certificado de no adeudar.',
+    'Expensas atrasadas: la deuda sigue al departamento, así que el comprador pide constancia de la administración.',
+    'ANDE y ESSAP: no traban la escritura, pero el comprador va a pedir las últimas facturas pagadas.',
+    'Deudas personales: solo traban la venta si hay un embargo sobre la casa o una inhibición general a tu nombre.',
+    'Lo habitual es cancelar todo con la seña o con el precio, coordinado por el escribano.',
+  ],
+  flow: ['Lista de deudas', 'Montos por escrito', 'Aviso publicado', 'Pago con la seña', 'Escritura'],
+  cta: {
+    title: 'Las deudas no te impiden publicar',
+    text: 'Mientras pedís los montos exactos, tu casa ya puede estar recibiendo consultas. Publicar es gratis y sin comisión sobre la venta.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'se-puede',
+      h2: '¿Se puede vender una casa con deuda en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'Sí, se puede publicar, negociar y vender. Lo que cambia según el tipo de deuda es si hay que pagarla antes de la escritura, si pasa al comprador o si no tiene nada que ver con la casa.' },
+        {
+          t: 'table',
+          caption: 'Deudas más comunes y qué pasa con cada una al vender',
+          head: ['Deuda', '¿Frena la escritura?', 'Cómo se resuelve'],
+          rows: [
+            ['Impuesto inmobiliario', 'Sí', 'Se paga en la municipalidad antes de firmar; el escribano necesita el certificado de no adeudar'],
+            ['Tasas municipales', 'Depende de la municipalidad', 'Pedir un estado de cuenta completo del inmueble'],
+            ['Expensas del edificio', 'En la práctica, sí', 'Constancia de la administración; se cancela antes o en la firma'],
+            ['ANDE y ESSAP', 'No', 'Se entregan las cuentas al día o se descuenta del precio'],
+            ['Tarjetas, préstamos, cuotas', 'No, salvo embargo o inhibición', 'Si hay medida judicial, se levanta pagando'],
+          ],
+          note: 'Descripción general según la ley tributaria, la ley de propiedad por pisos y el Código Procesal Civil. Cada caso lo revisa el escribano.',
+        },
+        { t: 'p', html: 'Si la deuda es una hipoteca, se cancela con el precio el día de la escritura y tiene su propio trámite con el banco, que esta guía no trata. Si la deuda ya llegó a un juzgado, seguí por <a href="/casa-embargada-se-puede-vender/">casa embargada: ¿se puede vender?</a>' },
+      ],
+    },
+    {
+      id: 'impuesto-inmobiliario',
+      h2: '¿Se puede vender una casa con deuda de impuestos? El impuesto inmobiliario atrasado',
+      blocks: [
+        { t: 'p', html: 'Se puede acordar la venta, pero no escriturar sin ponerse al día. La ley tributaria prohíbe a los escribanos hacer escrituras de transferencia sin el certificado de no adeudar el impuesto inmobiliario y sus adicionales.' },
+        { t: 'ul', items: [
+          'El impuesto es municipal y anual. La ley fija una tasa del 1% sobre la valuación fiscal del inmueble, que suele ser bastante más baja que el precio de mercado.',
+          'Para transferir hay que pagar antes la totalidad. Lo que acuerden comprador y vendedor sobre quién pone la plata no cambia eso.',
+          'Pedí en la municipalidad el estado de cuenta con multas y recargos, y preguntá si hay descuentos o facilidades vigentes.',
+          'La acción para cobrar tributos prescribe a los cinco años, pero la prescripción tiene reglas y no se aplica sola: consultá en la municipalidad o con un abogado antes de dar por perdidos los años viejos.',
+        ] },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un abogado o escribano antes de decidir.' },
+      ],
+    },
+    {
+      id: 'luz-y-agua',
+      h2: '¿Se puede vender una casa con deuda de luz y agua?',
+      blocks: [
+        { t: 'p', html: 'Sí. Las cuentas de ANDE y ESSAP no se anotan en el Registro Público y el escribano no las necesita para firmar. Pero el comprador casi siempre pide las últimas facturas pagadas, porque nadie quiere recibir una casa con el servicio cortado.' },
+        { t: 'ul', items: [
+          'Pedí en cada empresa el estado de cuenta del suministro y, si la deuda es grande, preguntá por un plan de pago.',
+          'Preguntá también cómo se hace el cambio de titular y qué pasa con la deuda anterior: la respuesta depende de cada empresa y de cada caso.',
+          'Lo más sano es entregar con las cuentas al día, o descontar la deuda del precio y dejarlo escrito en el contrato.',
+        ] },
+      ],
+    },
+    {
+      id: 'expensas',
+      h2: '¿Se puede vender una propiedad con deuda de expensas?',
+      blocks: [
+        { t: 'p', html: 'Se puede, pero la deuda no se queda con vos. La ley de propiedad por pisos y departamentos dice que la obligación de pagar expensas sigue a la unidad, incluso por lo que se debía antes de la compra.' },
+        { t: 'p', html: 'Por eso el comprador y su escribano van a pedir una constancia de la administración, lo que muchos llaman libre deuda de expensas. Si hay atraso, pedí el monto exacto con intereses y acordá que se pague con la seña o en el acto de la escritura. Más sobre la venta de departamentos en <a href="/vendo-departamento-urgente/">vendo departamento urgente</a>.' },
+      ],
+    },
+    {
+      id: 'deudas-personales',
+      h2: 'Puedo vender mi casa con deuda en el banco o en tarjetas: cuándo se complica',
+      blocks: [
+        { t: 'p', html: 'Mientras tus deudas personales no hayan llegado a una medida judicial, no afectan la venta. La casa responde por tus deudas recién cuando un juez ordena anotar algo en el Registro.' },
+        { t: 'ul', items: [
+          '<strong>Embargo:</strong> recae sobre la casa y figura en el informe que pide el escribano. Hay que levantarlo para escriturar.',
+          '<strong>Inhibición general de vender y gravar bienes:</strong> recae sobre vos, no sobre un inmueble. Mientras dure, no podés vender ni hipotecar nada que esté a tu nombre.',
+          '<strong>Juicio en marcha sin medidas todavía:</strong> podés vender, pero el acreedor puede pedir el embargo en cualquier momento.',
+        ] },
+        { t: 'p', html: 'Si recibiste una intimación de pago o una cédula del juzgado, no esperes: vender por tu cuenta casi siempre deja más plata que llegar a una subasta. Está explicado en <a href="/remate-judicial-de-inmuebles-paraguay/">remate judicial de inmuebles en Paraguay</a>.' },
+      ],
+    },
+    {
+      id: 'pagar-con-la-venta',
+      h2: 'Cómo pagar las deudas con el dinero de la venta',
+      blocks: [
+        { t: 'p', html: 'Con la seña o con una parte del precio, y con el escribano ordenando los pagos. No hace falta tener el dinero antes de encontrar comprador.' },
+        { t: 'steps', items: [
+          { title: 'Hacé la lista con montos por escrito', html: 'Municipalidad, administración del edificio, ANDE, ESSAP. Con fecha, porque los recargos corren.' },
+          { title: 'Publicá con el precio completo', html: 'Las deudas no se restan en el aviso: se pagan con lo que cobrás. Podés publicar en <a href="https://casa-libre.com.py/publicar">Casa-Libre</a> mientras juntás los papeles.' },
+          { title: 'Contale al interesado serio', html: 'Antes de recibir la seña, mostrale la lista. Una deuda que aparece tarde tira abajo la confianza.' },
+          { title: 'Usá la seña para ponerte al día', html: 'Dejalo escrito en el contrato: la seña se aplica a cancelar el impuesto y las demás cuentas, con comprobantes.' },
+          { title: 'Firmá la escritura con los certificados', html: 'El escribano reúne el certificado de no adeudar el impuesto y los informes del Registro, y recién ahí se firma.' },
+        ] },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa de Gs. 400.000.000 con cuentas atrasadas',
+          html: 'Supuestos de ejemplo: seña del 10% y deudas con montos redondos. No incluye impuestos de la venta ni gastos de escritura.',
+          rows: [
+            ['Impuesto inmobiliario de varios años, con recargos', '', 'Gs. 6.000.000'],
+            ['ANDE', '', 'Gs. 1.200.000'],
+            ['ESSAP', '', 'Gs. 500.000'],
+            ['Total de deudas', '6.000.000 + 1.200.000 + 500.000', 'Gs. 7.700.000'],
+            ['Seña del comprador', '400.000.000 × 10%', 'Gs. 40.000.000'],
+            ['Te queda de la seña después de pagar', '40.000.000 − 7.700.000', 'Gs. 32.300.000'],
+          ],
+        },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publicar mientras se ordenan las cuentas',
+      blocks: [
+        { t: 'p', html: 'No hace falta estar al día para empezar a recibir consultas. Hace falta saber cuánto debés y decirlo a tiempo.' },
+        {
+          t: 'casalibre',
+          title: 'Que la casa ya esté a la vista',
+          html: 'En Casa-Libre publicar es gratis, no hay comisión sobre la venta y los interesados te escriben directo por WhatsApp. El aviso se puede guardar como borrador y terminar después. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://casa-libre.com.py/vender',
+        },
+        { t: 'p', html: 'Casa-Libre no compra casas ni da asesoramiento legal: para los montos y los certificados, el que manda es el escribano. La lista general de pasos está en la guía de <a href="https://casa-libre.com.py/guias/como-vender-mi-casa">Casa-Libre</a> para vender una casa.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Puedo vender mi casa con deuda?', a: 'Sí. Lo que hay que resolver antes de la escritura es el impuesto inmobiliario y, en un departamento, las expensas. Lo habitual es pagarlos con la seña o con parte del precio.' },
+    { q: '¿Se puede vender una casa con deuda en el banco?', a: 'Si es un préstamo personal o una tarjeta, sí, mientras no haya un embargo sobre la casa ni una inhibición a tu nombre. Lo que mira el escribano es lo que figura en el Registro Público, no lo que debés en el banco.' },
+    { q: '¿Prescribe el impuesto inmobiliario en Paraguay?', a: 'La ley tributaria dice que la acción para cobrar tributos prescribe a los cinco años, contados desde el 1 de enero del año siguiente al que debió pagarse. Hay actos que interrumpen ese plazo, así que no lo des por hecho: pedí el estado de cuenta y consultá.' },
+    { q: '¿Quién paga el impuesto inmobiliario del año en que se vende?', a: 'Para escriturar tiene que estar pago todo el impuesto, sin importar lo que acuerden las partes. Entre comprador y vendedor pueden repartirse ese costo como quieran, y conviene dejarlo escrito.' },
+    { q: '¿El comprador hereda mis deudas de luz y agua?', a: 'Depende de cada empresa y de cada caso, y no hay una respuesta única que valga para todos. Por eso lo prudente es entregar las cuentas al día o descontarlas del precio, y que el comprador consulte en ANDE y ESSAP el cambio de titular antes de firmar.' },
+  ],
+  sources: [
+    { label: 'Ley 125/91, régimen tributario: impuesto inmobiliario (arts. 54 a 67) y prescripción (art. 164)', detail: 'Tasa del impuesto, certificado de no adeudar para escriturar y plazo de prescripción.' },
+    { label: 'Ley 677/60, sobre propiedad por pisos y por departamentos, art. 18', detail: 'La obligación de pagar expensas sigue al departamento.' },
+    { label: 'Código Procesal Civil (Ley 1337/88), arts. 707 a 720', detail: 'Embargo preventivo e inhibición general de enajenar y gravar bienes.' },
+    { label: 'Municipalidad de cada distrito, ANDE y ESSAP', detail: 'Estados de cuenta del inmueble y de cada suministro.' },
+  ],
+  internalSources: [
+    { label: 'Ley 125/91 arts. 61, 64, 164', url: 'https://paraguay.justia.com/nacionales/leyes/ley-125-jan-9-1992/gdoc/', date: '2026-11-15', note: 'Art. 61: 1% rate. Art. 64: no escritura without certificate; in transfers the whole tax must be paid first, agreement between parties irrelevant. Art. 164: 5-year prescription from 1 January of the following year. Later amendments (Ley 5513/15 touches arts. 60, 62, 66, 70, 74) not re-read.' },
+    { label: 'Ley 677/60 art. 18', url: 'https://www.bacn.gov.py/leyes-paraguayas/980/ley-n-677-sobre-propiedad-por-pisos-y-por-departamentos-br', date: '2026-11-15', note: 'Expensas obligation follows the unit, also for amounts accrued before acquisition. Código Civil art. 2810 repeals only the provisions of Ley 677/60 contrary to the Code, so art. 18 appears to remain; flagged for a professional check.' },
+    { label: 'Código Procesal Civil arts. 715, 718-720', url: 'https://www.bacn.gov.py/leyes-paraguayas/3038/ley-n-1337-codigo-procesal-civil-br', date: '2026-11-15', note: 'Art. 719: while the inhibición lasts, the person cannot sell or encumber.' },
+    { label: 'ANDE / ESSAP debt on change of owner', url: '', date: '2026-11-15', note: 'NOT confirmed. The page says it depends on each company and case and tells the reader to ask.' },
+    { label: 'Example amounts', url: '', date: '2026-11-15', note: 'Hypothetical.' },
+  ],
+  closing: {
+    title: 'Sabé cuánto debés y publicá',
+    text: 'Con la lista de deudas en la mano, la venta se ordena. Publicar en Casa-Libre es gratis y te escriben por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['casa-embargada-se-puede-vender', 'remate-judicial-de-inmuebles-paraguay', 'vendo-departamento-urgente'],
+};
